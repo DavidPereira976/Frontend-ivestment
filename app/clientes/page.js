@@ -103,14 +103,14 @@ export default function Clientes() {
       <div className="form-container">
         <h1>Cadastro de Clientes</h1>
         <form onSubmit={handleSubmit}>
-          <input
+          <input className="input-standard"
             type="text"
             placeholder="Nome"
             value={nome}
             onChange={(e) => setNome(e.target.value)}
             required
           />
-          <input
+          <input className="input-standard"
             type="email"
             placeholder="Email"
             value={email}
