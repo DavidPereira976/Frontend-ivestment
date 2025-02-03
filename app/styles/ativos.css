@@ -1,0 +1,96 @@
+/* styles/ativos.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Formulário de cadastro */
+.form-container {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  background: #9F9A97;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f9f9f9;
+  outline: none;
+  color: black;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Lista de ativos */
+.ativos-lista {
+  flex: 2;
+  min-width: 400px;
+  padding: 20px;
+  background: #9F9A97;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ativos-lista h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  color: black;
+}

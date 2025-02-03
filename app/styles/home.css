@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

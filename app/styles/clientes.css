@@ -1,0 +1,130 @@
+/* styles/clientes.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container Principal */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Estilização do formulário */
+  .form-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #9F9A97;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    color: #FFF;
+    padding-bottom :30px;
+  }
+  
+  input {
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f9f9f9;
+    outline: none;
+    color: #000;
+  }
+
+  .checkbox{
+    width: 20px;
+    padding-left: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+  
+}
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Botões */
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  button.cancel {
+    background: #bbb;
+    margin-top: 5px;
+  }
+  
+  button.cancel:hover {
+    background: #888;
+  }
+  
+  /* Lista de clientes */
+  .clientes-lista {
+    flex: 2;
+    min-width: 400px;
+    padding: 20px;
+    background: #9F9A97;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clientes-lista h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #9F9A97;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+  }
+  
+  li button {
+    margin-left: 10px;
+    /* background: red; */
+    width: 120px;
+  }
+  
